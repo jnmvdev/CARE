@@ -5,7 +5,7 @@
 - Tout développement s’effectue exclusivement sur une branche de type `feature/`.
 - Une pull request est obligatoire pour intégrer du code dans `main`.
 - Chaque pull request doit être revue et approuvée par au moins un autre développeur.
-- Le titre de la pull request doit obligatoirement contenir l’identifiant de la carte Trello correspondante.
+- Le titre de la pull request doit obligatoirement contenir le titre de la carte Trello correspondante.
 
 ## Création d’une branche
 
