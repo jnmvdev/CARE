@@ -10,11 +10,11 @@
 ## Création d’une branche
 
 1. Partir toujours de la branche `main` à jour :
-   git checkout main
-   git pull origin main // mettre à jour son projet avec les dernières màj de la branche `main`
+- git checkout main
+- git pull origin main // mettre à jour son projet avec les dernières màj de la branche `main`
 
 Créer une branche nommée selon le format suivant :
-`feature/<titre-carte-trello>`
+- `feature/<titre-carte-trello>`
 Exemple : feature/gestion-membres
 
 ### Processus de développement
@@ -24,7 +24,7 @@ Effectuer les modifications uniquement sur la branche feature/.
 Commit avec un message court et précis sur ce qui a été changé/implémenté.
 
 Pousser la branche feature et les avancées vers la branche main:
-`git push -u origin feature/<titre-carte-trello>`
+- `git push -u origin feature/<titre-carte-trello>`
 
 Création de la pull request
 Ouvrir une pull request de la branche feature/ vers main.
