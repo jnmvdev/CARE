@@ -27,12 +27,12 @@ Pousser la branche feature et les avancées vers la branche main:
 - `git push -u origin feature/<titre-carte-trello>`
 
 Création de la pull request
-Ouvrir une pull request de la branche feature/ vers main.
+- Ouvrir une pull request de la branche feature/ vers main
 
 Titre de la pull request :
-[Trello #ID] Description courte de la fonctionnalité
-Description : résumé des modifications apportées.
-Assigner au moins un reviewer.
+- Titre Carte Trello
+- Description : résumé des modifications apportées.
+- Assigner au moins un reviewer (Nathan ou autre).
 
 Merge
 
