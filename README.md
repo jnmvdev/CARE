@@ -40,11 +40,11 @@ Toute autre fonctionnalité reste hors MVP et sera traitée ultérieurement.
 @jnmvdev
 
 ### Structure du dépôt
-/
-├── README.md
-├── CONTRIBUTING.md
-├── docs/
-└── src/
+- `/`  
+  - `README.md`  
+  - `CONTRIBUTING.md`  
+  - `docs/`  
+  - `src/`
 
 ### Contribution
 - Aucun commit direct sur `main`
