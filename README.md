@@ -3,9 +3,17 @@
 
 ### Description
 Application destinée à la gestion opérationnelle du club CARE.  
-Elle couvre la gestion des membres, des rôles du comité, des tables de jeu, des maîtres de jeu (MJ), des stocks de boissons et snacks, des ardoises, des sessions et du calendrier d'activités.
+Elle couvre :
+- la gestion des membres
+- des rôles du comité
+- des tables de jeu
+- des maîtres de jeu (MJ)
+- des stocks de boissons et snacks
+- des ardoises
+- des sessions
+- du calendrier d'activités.
 
-Le périmètre fonctionnel est strictement limité aux besoins exprimés dans le document d'interview du 17 septembre 2026 et aux réponses aux questions de clarification PAC.
+Le périmètre fonctionnel est strictement limité aux besoins exprimés dans le document d'interview et aux réponses aux questions de clarification PAC.
 
 ### Objectifs
 - Centraliser la gestion des membres (ordinaires, comité, invités)
