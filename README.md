@@ -40,11 +40,25 @@ Toute autre fonctionnalité reste hors MVP et sera traitée ultérieurement.
 @jnmvdev
 
 ### Structure du dépôt
-- `/`  
-  - `README.md`  
-  - `CONTRIBUTING.md`  
-  - `docs/`  
-  - `src/`
+```
+- /  
+  - README.md
+  - CONTRIBUTING.md
+  - docs/
+  - src/
+    ├── core/                                   # Logique métier et règles de gestion (hors DB)
+    │   ├── activities/                         # Gestion des séances JDR, limites de salles/tables et planning
+    │   ├── auth/                               # Définition des rôles utilisateurs et droits d'accès
+    │   ├── finance/                            # Suivi des ardoises, suivi des cotisations annuelles et de la compta
+    │   ├── members/                            # Gestion des membres, vérification de l'âge (12+ / accompagnant) et du comité
+    │   └── stock/                              # Inventaire des snacks/boissons, prix et alertes de péremption
+    │
+    └── infrastructure/                         # Implémentations techniques, stockage des données et services externes
+        ├── database/                           # Configuration de la base de données, migrations et connexions
+        │   └── repositories/                   # Code assurant la lecture et l'écriture des données en DB
+        ├── notifications/                      # Rappels pour ardoises impayées et alertes de stock/péremption
+        └── security/                           # Hachage des mots de passe et gestion des sessions sur le PC unique du club`
+```
 
 ### Contribution
 - Aucun commit direct sur `main`
