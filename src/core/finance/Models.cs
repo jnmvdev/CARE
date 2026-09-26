@@ -17,15 +17,6 @@ public class LigneArdoise
     public string Description { get; set; } = string.Empty;
 }
 
-public class Cotisation
-{
-    public int AnneeCivile { get; set; }
-    public decimal Montant { get; set; }
-    public DateTime? DatePaiement { get; set; }
-    public string ModePaiement { get; set; } = string.Empty;
-    public bool Payee { get; set; }
-}
-
 public class TransactionFinanciere
 {
     public DateTime DateTransaction { get; set; } = DateTime.UtcNow;
