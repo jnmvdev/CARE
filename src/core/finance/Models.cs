@@ -2,11 +2,7 @@ namespace CARE.Core.Finance;
 
 public class Ardoise
 {
-    public DateTime DateCreation { get; set; } = DateTime.UtcNow;
-    public decimal MontantTotal { get; set; }
-    public bool Payee { get; set; }
-    public DateTime? DatePaiement { get; set; }
-    public List<LigneArdoise> Lignes { get; set; } = new();
+    // TODO : voir carte trello correspondante
 }
 
 public class LigneArdoise
