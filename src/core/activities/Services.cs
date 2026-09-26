@@ -1,4 +1,4 @@
-using CARE.Core.Members;
+using CARE.core.members;
 
 namespace CARE.Core.Activities;
 

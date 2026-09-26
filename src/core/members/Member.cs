@@ -24,10 +24,13 @@ namespace CARE.core.members
 
     public class Member
     {
+        // TODO : ajouter le champs GUID pour chaque membre
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
+        public int Age {get; set; } = 18;
         public Gender Gender { get; set; }
         public DateTime BirthDate { get; set; }
+        // TODO : ajouter logique de companionId (ID accompagnant si joueur mineur)
         
         // Cotisation annuelle et rôles
         public bool HasPaidAnnualDues { get; set; }
@@ -48,13 +51,6 @@ namespace CARE.core.members
                 age--;
             }
             return age;
-        }
-
-        // Vérification du besoin d'un accompagnant
-        public bool RequiresCompanion(DateTime referenceDate)
-        {
-            int age = CalculateAge(referenceDate);
-            return age >= 12 && age < 18;
         }
     }
 }
