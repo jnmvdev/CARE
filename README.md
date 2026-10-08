@@ -36,8 +36,13 @@ Le premier livrable se limite exclusivement aux fonctionnalités suivantes :
 Toute autre fonctionnalité reste hors MVP et sera traitée ultérieurement.
 
 ### Équipe
-#Ajout des collabs
-@jnmvdev
+- https://github.com/Cedricvds3
+- https://github.com/Gamoen
+- https://github.com/RomainVandaele10
+- https://github.com/AntoineOhoui
+- https://github.com/TTCODING31
+- https://github.com/lajimitakibis
+- https://github.com/jnmvdev
 
 ### Structure du dépôt
 ```

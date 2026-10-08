@@ -2,9 +2,9 @@ namespace CARE.Core.Activities;
 
 public enum ActivityStatus
 {
-    Planifié,
+    Planifie,
     EnCours,
-    Terminé,
+    Termine,
     Annulé
 }
 
@@ -37,6 +37,6 @@ public class ActivitySession
 {
     public Guid Id { get; set; } = Guid.NewGuid();
     public DateTime ScheduledDate { get; set; }
-    public ActivityStatus Status { get; set; } = ActivityStatus.Planned;
+    public ActivityStatus Status { get; set; } = ActivityStatus.Planifie;
     public List<GameTable> Tables { get; set; } = new();
 }
